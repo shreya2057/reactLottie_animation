@@ -9,6 +9,7 @@ export default function Animation(){
         <div>
             <Lottie
                 animationData={groovyWalkAnimation}
+                autoplay={false}
                 className="flex justify-center items-center"
                 loop={true}
             />
